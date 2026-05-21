@@ -5,7 +5,6 @@
     <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>TallerDeLenguaje1_2026</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>
