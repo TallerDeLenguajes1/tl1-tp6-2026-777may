@@ -38,6 +38,11 @@ while (opcion != 0)
                             ;
                             break;
                         case 6:
+                            Console.WriteLine($"""
+                                El maximo entre los dos numeros es: {Math.Max(num1, num2)}
+                                El minimo entre los dos numeros es: {Math.Min(num1, num2)}
+                            """);
+                            break;
                     }
                     Console.WriteLine("\n¿Desea realizar otro cálculo?\n" +
                         "1: Si, 0: No.");
