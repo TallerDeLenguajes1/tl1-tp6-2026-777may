@@ -8,8 +8,8 @@ while (opcion != 0)
         "    1: para Sumar\n" +
         "    2: para Restar\n" +
         "    3: para Multiplicar\n" +
-        "    4: para Dividir\n\n" +
-        "    5: para Operaciones Varias\n\n" +
+        "    4: para Dividir\n" +
+        "    5: para Operaciones Varias\n" +
         "    6: para Comparar mayor entre dos numeros\n\n" +
         "0 para Salir");
     if (int.TryParse(Console.ReadLine(), out opcion) && opcion > 0 && opcion < 7)
@@ -34,8 +34,7 @@ while (opcion != 0)
                             Console.WriteLine("El producto es: " + (num1 * num2));
                             break;
                         case 4:
-                            if (num2 != 0) { Console.WriteLine("La division es: " + (num1 / num2)); } else { Console.WriteLine("No se ha ingresado un divisor válido\n"); }
-                            ;
+                            if (num2 != 0) { Console.WriteLine("La division es: " + (num1 / num2)); } else { Console.WriteLine("No se ha ingresado un divisor válido\n"); };
                             break;
                         case 6:
                             Console.WriteLine($"""
@@ -46,7 +45,7 @@ while (opcion != 0)
                     }
                     Console.WriteLine("\n¿Desea realizar otro cálculo?\n" +
                         "1: Si, 0: No.");
-                    if (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 400)
+                    if (!int.TryParse(Console.ReadLine(), out opcion) || opcion != 0 || opcion != 1)
                     {
                         Console.WriteLine("No se ha ingresado una opción válida\n");
                         opcion = 1;
@@ -56,13 +55,11 @@ while (opcion != 0)
                 {
                     Console.WriteLine("No se ha ingresado un número válido\n");
                 }
-
             }
             else
             {
                 Console.WriteLine("No se ha ingresado un número válido\n");
             }
-
         }
         else
         {
@@ -79,7 +76,7 @@ while (opcion != 0)
                 """);
                 Console.WriteLine("\n¿Desea realizar otro cálculo?\n" +
                     "1: Si, 0: No.");
-                if (!int.TryParse(Console.ReadLine(), out opcion) || opcion < 0 || opcion > 400)
+                if (!int.TryParse(Console.ReadLine(), out opcion) || opcion != 0 || opcion != 1)
                 {
                     Console.WriteLine("No se ha ingresado una opción válida\n");
                     opcion = 1;
