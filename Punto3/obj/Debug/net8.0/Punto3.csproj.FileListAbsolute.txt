@@ -1,0 +1,5 @@
+D:\Privado\Facultad\2026\TallerDeLenguajes1\TP6\tl1-tp6-2026-777may\Punto3\obj\Debug\net8.0\Punto3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Privado\Facultad\2026\TallerDeLenguajes1\TP6\tl1-tp6-2026-777may\Punto3\obj\Debug\net8.0\Punto3.AssemblyInfoInputs.cache
+D:\Privado\Facultad\2026\TallerDeLenguajes1\TP6\tl1-tp6-2026-777may\Punto3\obj\Debug\net8.0\Punto3.AssemblyInfo.cs
+D:\Privado\Facultad\2026\TallerDeLenguajes1\TP6\tl1-tp6-2026-777may\Punto3\obj\Debug\net8.0\Punto3.csproj.CoreCompileInputs.cache
+D:\Privado\Facultad\2026\TallerDeLenguajes1\TP6\tl1-tp6-2026-777may\Punto3\obj\Debug\net8.0\Punto3.sourcelink.json

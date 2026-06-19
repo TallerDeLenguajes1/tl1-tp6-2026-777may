@@ -45,7 +45,7 @@ while (opcion != 0)
                     }
                     Console.WriteLine("\n¿Desea realizar otro cálculo?\n" +
                         "1: Si, 0: No.");
-                    if (!int.TryParse(Console.ReadLine(), out opcion) || opcion != 0 || opcion != 1)
+                    if (!int.TryParse(Console.ReadLine(), out opcion) || opcion != 0 && opcion != 1)
                     {
                         Console.WriteLine("No se ha ingresado una opción válida\n");
                         opcion = 1;
@@ -76,7 +76,7 @@ while (opcion != 0)
                 """);
                 Console.WriteLine("\n¿Desea realizar otro cálculo?\n" +
                     "1: Si, 0: No.");
-                if (!int.TryParse(Console.ReadLine(), out opcion) || opcion != 0 || opcion != 1)
+                if (!int.TryParse(Console.ReadLine(), out opcion) || opcion != 0 && opcion != 1)
                 {
                     Console.WriteLine("No se ha ingresado una opción válida\n");
                     opcion = 1;
